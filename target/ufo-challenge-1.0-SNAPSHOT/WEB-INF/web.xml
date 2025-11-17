@@ -1,0 +1,21 @@
+<web-app>
+    <servlet>
+        <servlet-name>GameServlet</servlet-name>
+        <servlet-class>com.example.ufo.controller.GameServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GameServlet</servlet-name>
+        <url-pattern>/game</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RestartServlet</servlet-name>
+        <servlet-class>com.example.ufo.controller.RestartServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RestartServlet</servlet-name>
+        <url-pattern>/restart</url-pattern>
+    </servlet-mapping>
+</web-app>

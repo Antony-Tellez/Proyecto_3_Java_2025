@@ -1,0 +1,4 @@
+com\example\ufo\util\GameState.class
+com\example\ufo\controller\RestartServlet.class
+com\example\ufo\model\GameLogic.class
+com\example\ufo\controller\GameServlet.class
